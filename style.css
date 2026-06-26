@@ -177,16 +177,6 @@ p {
   margin-top: 21px;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-}
-
-.content .experience {
-  margin-top: auto;
-  padding-top: 21px;
-}
-
 .content section > h2 {
   display: flex;
   align-items: center;
@@ -200,8 +190,8 @@ p {
   background: var(--line);
 }
 
-.entry + .entry {
-  margin-top: 16px;
+.content .entry + .entry {
+  margin-top: 19px;
 }
 
 .entry-heading {
@@ -323,11 +313,6 @@ li::marker {
     padding: 0 0 18px;
     border-right: 0;
     border-bottom: 1px solid var(--line);
-  }
-
-  .content .experience {
-    margin-top: 21px;
-    padding-top: 0;
   }
 
   .sidebar section + section {
