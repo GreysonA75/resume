@@ -174,7 +174,7 @@ p {
 }
 
 .content section + section {
-  margin-top: 21px;
+  margin-top: 18px;
 }
 
 .content section > h2 {
@@ -191,7 +191,7 @@ p {
 }
 
 .content .entry + .entry {
-  margin-top: 19px;
+  margin-top: 16px;
 }
 
 .entry-heading {
