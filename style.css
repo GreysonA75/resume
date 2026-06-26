@@ -62,13 +62,14 @@ h1 {
 }
 
 h1 span {
-  color: var(--accent);
+  color: var(--ink);
 }
 
 .location {
   margin: 7px 0 0;
-  color: var(--muted);
+  color: var(--accent);
   font-size: 0.77rem;
+  font-weight: 600;
 }
 
 .location span {
