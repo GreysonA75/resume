@@ -79,12 +79,16 @@ h1 span {
 
 .contact {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(3, auto);
   gap: 4px 18px;
   margin: 0;
   font-style: normal;
   font-size: 0.75rem;
   text-align: right;
+}
+
+.contact a:nth-child(2) {
+  grid-column: span 2;
 }
 
 .contact a:nth-child(3),
@@ -297,6 +301,10 @@ li::marker {
   .contact {
     grid-template-columns: 1fr;
     text-align: left;
+  }
+
+  .contact a:nth-child(2) {
+    grid-column: auto;
   }
 
   .summary,
