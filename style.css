@@ -88,7 +88,8 @@ h1 span {
 }
 
 .contact a:nth-child(3),
-.contact a:nth-child(4) {
+.contact a:nth-child(4),
+.contact a:nth-child(5) {
   color: var(--accent-dark);
   font-weight: 700;
 }
