@@ -358,7 +358,7 @@ li::marker {
   html,
   body {
     width: 8.5in;
-    height: 11in;
+    height: auto;
     background: white;
   }
 
@@ -369,9 +369,40 @@ li::marker {
 
   .resume {
     width: 8.5in;
-    min-height: 11in;
+    min-height: 0;
     margin: 0;
     box-shadow: none;
+  }
+
+  .header {
+    display: block;
+  }
+
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 18px;
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .summary,
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .summary {
+    gap: 0;
+  }
+
+  .sidebar {
+    padding: 0 0 18px;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .sidebar section + section {
+    margin-top: 18px;
   }
 
   .print-button {
