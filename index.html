@@ -3,28 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Resume of Greyson Alegria, Computer Science student and software developer.">
-  <title>Greyson Alegria — Resume</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@700;800&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260707-4">
+  <meta name="description" content="Greyson Alegria, Computer Science senior focused on software engineering and AI-powered applications. Expected graduation May 2027.">
+  <title>Greyson Alegria - Software Engineering Resume</title>
+  <link rel="stylesheet" href="style.css?v=20261010">
 </head>
 <body>
-  <button class="print-button" type="button" onclick="window.print()" aria-label="Save or print resume">
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M7 14h10v7H7z"/>
-    </svg>
-    Save as PDF
-  </button>
-
+  <nav class="resume-actions" aria-label="Resume actions">
+    <a href="output/pdf/greyson-alegria-resume.pdf" download>Download PDF</a>
+    <button type="button" onclick="window.print()">Save as PDF</button>
+  </nav>
   <main class="resume">
     <header class="header">
-      <div class="identity">
-        <h1>Greyson <span>Alegria</span></h1>
-        <p class="location">Boone, NC <span aria-hidden="true">/</span> Mooresville, NC</p>
-      </div>
-
+      <h1>Greyson Alegria</h1>
+      <p class="headline">Software Engineering | AI-Powered Applications</p>
+      <p class="location">Boone, NC / Mooresville, NC</p>
       <address class="contact">
         <a href="tel:+17046547799">704-654-7799</a>
         <a href="mailto:thegreysonj@gmail.com">thegreysonj@gmail.com</a>
@@ -33,159 +25,94 @@
         <a href="https://www.linkedin.com/in/greyson-alegria-ga321">LinkedIn</a>
       </address>
     </header>
-
-    <section class="summary" aria-labelledby="summary-heading">
-      <h2 id="summary-heading">Professional Summary</h2>
-      <p>Rising senior studying Computer Science with a current 3.5 GPA and hands-on experience building responsive websites, AI-enabled business systems, cloud-backed prototypes, and API-integrated software. Interested in software engineering, web development, databases, and user-focused product design.</p>
+    <section class="summary" aria-label="Professional Summary">
+      <p>Computer Science senior with a strong foundation in C and Java and hands-on projects in web development, service integration, and AI workflows. Pursuing Python-focused software engineering and AI application development.</p>
     </section>
-
-    <div class="layout">
-      <aside class="sidebar">
-        <section aria-labelledby="education-heading">
-          <h2 id="education-heading">Education</h2>
-          <div class="education">
-            <h3>Appalachian State University</h3>
-            <p>Bachelor of Science in Computer Science</p>
-            <p class="meta">Expected Graduation: May 2027</p>
-            <p class="meta">Current GPA: 3.5</p>
-            <p class="honors">Chancellor’s List, 2×<br>Dean’s List, 1×</p>
-          </div>
-        </section>
-
-        <section aria-labelledby="skills-heading">
-          <h2 id="skills-heading">Technical Skills</h2>
-          <div class="skill-group">
-            <h3>Languages</h3>
-            <p>Java, C, Haskell, JavaScript, Swift, SQL</p>
-          </div>
-          <div class="skill-group">
-            <h3>Web</h3>
-            <p>HTML5, CSS3, Responsive Design, Semantic HTML</p>
-          </div>
-          <div class="skill-group">
-            <h3>Frameworks &amp; Platforms</h3>
-            <p>SwiftUI, UIKit, Firebase, Firebase Functions</p>
-          </div>
-          <div class="skill-group">
-            <h3>APIs &amp; Tools</h3>
-            <p>Google Cloud Vision, eBay API, Git, GitHub, Xcode, VS Code, Swift Package Manager</p>
-          </div>
-          <div class="skill-group">
-            <h3>Concepts</h3>
-            <p>Data Structures, Object-Oriented Programming (OOP), API Integration, Database Design, Software Development Life Cycle (SDLC), User Interface and User Experience (UI/UX) Design</p>
-          </div>
-        </section>
-
-        <section aria-labelledby="coursework-heading">
-          <h2 id="coursework-heading">Relevant Coursework</h2>
-          <p class="compact">Software Engineering, Data Structures, Database Systems, Computer Systems, Programming Languages, Statistics, Linear Algebra, Technical Communication</p>
-        </section>
-
-      </aside>
-
-      <div class="content">
-        <section aria-labelledby="projects-heading">
-          <h2 id="projects-heading">Selected Projects</h2>
-
-          <article class="entry">
-            <div class="entry-heading">
-              <div>
-                <h3>ReAppraise</h3>
-                <p class="subtitle">iOS Resale Value Estimator</p>
-              </div>
-              <a class="project-link" href="https://github.com/GreysonA75/ReAppraise">GitHub ↗</a>
-            </div>
-            <p class="tech">Swift · SwiftUI · UIKit · Firebase Functions · Vision API · eBay API</p>
-            <ul>
-              <li>Developed an iOS prototype that estimates resale or donation values from user-provided photos.</li>
-              <li>Built camera and photo-library workflows and integrated callable cloud functions to process images and retrieve comparable product listings.</li>
-              <li>Combined OCR, detected labels, logos, categories, and user input into concise search queries; calculated median-based price ranges with condition adjustments.</li>
-            </ul>
-          </article>
-
-          <article class="entry">
-            <div class="entry-heading">
-              <div>
-                <h3>Dulcet &amp; Delish Cafe Website</h3>
-                <p class="subtitle">Responsive Local Business Website</p>
-              </div>
-              <div class="links">
-                <a class="project-link" href="https://greysona75.github.io/Dulcet-Delish-Website/">Live ↗</a>
-                <a class="project-link" href="https://github.com/GreysonA75/Dulcet-Delish-Website">GitHub ↗</a>
-              </div>
-            </div>
-            <p class="tech">HTML5 · CSS3 · JavaScript · Schema.org</p>
-            <ul>
-              <li>Designed and developed a responsive, multi-page café website with mobile navigation, menu, contact form, ordering paths, and map directions.</li>
-              <li>Improved discoverability and usability with semantic HTML, responsive breakpoints, SEO metadata, Open Graph tags, and local-business JSON-LD.</li>
-            </ul>
-          </article>
-
-          <article class="entry">
-            <div class="entry-heading">
-              <div>
-                <h3>Alegria Automation</h3>
-                <p class="subtitle">AI Receptionist Platform for HVAC Businesses</p>
-              </div>
-              <a class="project-link" href="https://alegria-automation.thegreysonj.chatgpt.site/">Live ↗</a>
-            </div>
-            <p class="tech">TypeScript · Cloudflare Workers · D1 · Retell AI · n8n</p>
-            <ul>
-              <li>Built a configurable AI receptionist platform that captures HVAC service inquiries, applies business-specific urgency rules, and produces structured call records.</li>
-              <li>Designed a secure serverless intake layer with request verification, rate limiting, retention controls, and feature-gated operational workflows.</li>
-              <li>Integrated a reusable automation foundation for confirmations, owner alerts, lead routing, and client-specific follow-up processes.</li>
-            </ul>
-          </article>
-        </section>
-
-        <section class="experience" aria-labelledby="experience-heading">
-          <h2 id="experience-heading">Experience</h2>
-
-          <article class="entry">
-            <div class="entry-heading">
-              <div>
-                <h3>ASG Executive Search &amp; Recruitment</h3>
-                <p class="subtitle">Web Development Intern</p>
-              </div>
-              <p class="date">October 2026 – Present</p>
-            </div>
-            <ul>
-              <li>Creating and designing ASG’s website with a clear user experience for candidates and clients.</li>
-              <li>Incorporating automation that supports candidate and client intake and recruiting workflows.</li>
-            </ul>
-          </article>
-
-          <article class="entry">
-            <div class="entry-heading">
-              <div>
-                <h3>Habitat for Humanity ReStore</h3>
-                <p class="subtitle">Customer Care Associate</p>
-              </div>
-              <p class="date">September 2025 – May 2026</p>
-            </div>
-            <ul>
-              <li>Assisted customers and processed, organized, and stocked donated inventory, including safe movement of large items.</li>
-              <li>Maintained Microsoft Excel inventory records with model numbers, descriptions, quantities, and pricing.</li>
-            </ul>
-          </article>
-
-          <article class="entry">
-            <div class="entry-heading">
-              <div>
-                <h3>Dulcet &amp; Delish Cafe</h3>
-                <p class="subtitle">Barista / Server · Mooresville, NC</p>
-              </div>
-              <p class="date">2018 – Present</p>
-            </div>
-            <ul>
-              <li>Deliver reliable customer service across POS transactions, serving, hosting, to-go orders, and high-volume rushes for a family-owned restaurant.</li>
-              <li>Support daily operations through cash handling, opening and closing, food and espresso preparation, catering, restocking, and sanitation.</li>
-              <li>Contribute to menu design, in-house displays, and social media content.</li>
-            </ul>
-          </article>
-        </section>
+    <section aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+      <div class="entry-heading">
+        <h3>Appalachian State University</h3>
+        <p class="date">Expected May 2027</p>
       </div>
-    </div>
+      <p>Bachelor of Science in Computer Science | GPA: 3.5</p>
+      <p>Chancellor's List (2x) | Dean's List (1x)</p>
+    </section>
+    <section class="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Technical Skills</h2>
+      <p><strong>Languages:</strong> C, Java, Python, JavaScript, TypeScript, Swift, Luau, SQL</p>
+      <p><strong>Web &amp; Mobile:</strong> HTML, CSS, React, Next.js, SwiftUI, UIKit</p>
+      <p><strong>AI &amp; Automation:</strong> Retell AI, n8n, OpenAI Agents SDK, API integration, webhooks</p>
+      <p><strong>Tools &amp; Platforms:</strong> Git, GitHub, Cloudflare Workers, D1, Firebase Functions</p>
+    </section>
+    <section aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Selected Technical Projects</h2>
+      <article class="entry">
+        <div class="entry-heading">
+          <h3>Alegria Automation - AI Voice Receptionist</h3>
+          <a class="project-link" href="https://alegria-automation.thegreysonj.chatgpt.site/">Demo site (sign-in)</a>
+        </div>
+        <ul>
+          <li>Developed an HVAC voice-receptionist prototype using Retell AI, n8n, and Google Sheets to capture service inquiries and structured post-call records.</li>
+          <li>Implemented a Cloudflare Workers/D1 staging backend with signed webhook validation, schema normalization, duplicate-event handling, and a durable alert outbox.</li>
+          <li>Built a Python planning-only controller with the OpenAI Agents SDK, structured role outputs, persistent job records, bounded retries, and unit tests.</li>
+        </ul>
+      </article>
+      <article class="entry">
+        <div class="entry-heading">
+          <h3>ReAppraise - iOS Resale Value Estimator</h3>
+          <a class="project-link" href="https://github.com/GreysonA75/ReAppraise">GitHub</a>
+        </div>
+        <ul>
+          <li>Built a SwiftUI iOS prototype with camera/photo-library input, OCR-derived search queries, and Firebase callable-function integrations for Google Cloud Vision and eBay.</li>
+          <li>Implemented median and percentile price estimates with condition adjustments, asynchronous image analysis, and stale-response handling.</li>
+        </ul>
+      </article>
+      <article class="entry">
+        <div class="entry-heading">
+          <h3>PAWNARCHY - Roblox Combat Game Prototype</h3>
+        </div>
+        <p class="tech">Luau · Roblox Studio · Rojo</p>
+        <ul>
+          <li>Implemented modular character abilities and server-controlled damage, cooldowns, progression, and action validation, with a client camera and ability HUD.</li>
+          <li>Added regression checks for combat, wall collisions, duplicate hits, and death/respawn behavior; documented Studio validation and remaining multiplayer checks.</li>
+        </ul>
+      </article>
+    </section>
+    <section aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Experience</h2>
+      <article class="entry">
+        <div class="entry-heading">
+          <h3>ASG Executive Search &amp; Recruitment</h3>
+          <p class="date">October 2026 - Present</p>
+        </div>
+        <p class="subtitle">Web Development Intern | Next.js · React · TypeScript</p>
+        <ul>
+          <li>Developing a multi-page recruitment website with reusable React components, typed content, and Next.js routing.</li>
+          <li>Implemented accessible mobile navigation, interactive search-process stages, and page-specific SEO metadata.</li>
+        </ul>
+      </article>
+      <article class="entry">
+        <div class="entry-heading">
+          <h3>Dulcet &amp; Delish Cafe</h3>
+          <p class="date">2018 - Present</p>
+        </div>
+        <p class="subtitle">Barista / Server | Mooresville, NC | <a href="https://greysona75.github.io/Dulcet-Delish-Website/">Website</a> · <a href="https://github.com/GreysonA75/Dulcet-Delish-Website">GitHub</a></p>
+        <ul>
+          <li>Developed a responsive HTML/CSS/JavaScript business website with mobile navigation, menu pages, a contact form, and local-business structured data.</li>
+          <li>Support customer service, POS transactions, food and espresso preparation, and opening/closing operations.</li>
+        </ul>
+      </article>
+      <article class="entry">
+        <div class="entry-heading">
+          <h3>Habitat for Humanity ReStore</h3>
+          <p class="date">September 2025 - May 2026</p>
+        </div>
+        <p class="subtitle">Customer Care Associate</p>
+        <ul>
+          <li>Assisted customers, processed donated inventory, and maintained Excel records of model numbers, quantities, and pricing.</li>
+        </ul>
+      </article>
+    </section>
   </main>
 </body>
 </html>
