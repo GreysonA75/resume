@@ -6,7 +6,7 @@ Completed October 11, 2026. The authoritative resume is `index.html`; `style.css
 
 The headline establishes software engineering and AI applications. The two-sentence introduction retains C and Java as the programming foundation and explicitly describes Python as the intended specialization. Python is also supported by an implemented development-planning controller; it is not presented as the language of the voice-receptionist backend.
 
-Three technical projects show service integration, application logic, and client/server engineering. ASG remains under the internship already recorded in the original resume. The cafe website sits under the actual Barista / Server role, without inventing a technical job title. Generic service duties are condensed. Coursework, Haskell, long concept lists, and repetitive technology lines were removed to prioritize evidence and achieve one page. The existing static architecture, contact details, links, teal palette, and browser print action are preserved. The layout is now single-column, uses local system fonts, and includes a PDF download.
+Three technical projects show service integration, application logic, and client/server engineering. ASG remains under the internship already recorded in the original resume. The cafe website sits under the actual Barista / Server role, without inventing a technical job title. Generic service duties are condensed. Coursework, Haskell, long concept lists, and repetitive technology lines were removed to prioritize evidence and achieve one page. The existing static architecture, contact details, links, teal palette, and browser print action are preserved. The layout is now single-column, uses locally bundled DM Sans and Manrope fonts, and includes a PDF download.
 
 ## Evidence and claim boundaries
 
@@ -53,8 +53,10 @@ The gaps are deeper Python application ownership, async/backend APIs, database-b
 
 ## Validation
 
+The visual refinement restores the original typography, teal accents, aligned contact header, and section rules, with more screen spacing. Resume content remains unchanged and the printable body stays single-column. Font licenses are included in `assets/fonts/`.
+
 - No package/build configuration or existing test suite exists in this static resume repository. No application build command applies.
-- Local browser returned HTTP 200 and no JavaScript page errors. Checked widths 320, 375, 390, 720, 816 and 1440px with no horizontal overflow.
+- Local browser returned HTTP 200 and no JavaScript page errors. Checked widths 320, 375, 390, 720, 721, 816 and 1440px with no horizontal overflow.
 - Browser Save as PDF invokes `window.print()`. Download PDF returns the generated file. Print CSS hides the action controls.
 - PDF: one US Letter page, 10pt body type, tagged and unencrypted. Every resume text segment extracts successfully (accounting for uppercase headings); all nine resume hyperlinks are embedded. Rendered PDF and desktop/mobile layouts visually inspected.
 - Five public HTTP links returned 200. The receptionist demo returned 401 and is labeled as requiring sign-in. LinkedIn returned its automated-access status 999; profile availability cannot be confirmed from that response. No public 404 was observed. Contact URI values were preserved; no phone call or email was sent.
