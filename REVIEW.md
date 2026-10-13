@@ -6,7 +6,7 @@ Completed October 11, 2026. The authoritative resume is `index.html`; `style.css
 
 The headline establishes software engineering and AI applications. The two-sentence introduction retains C and Java as the programming foundation and explicitly describes Python as the intended specialization. Python is also supported by an implemented development-planning controller; it is not presented as the language of the voice-receptionist backend.
 
-Three technical projects show service integration, application logic, and client/server engineering. ASG remains under the internship already recorded in the original resume. The cafe website sits under the actual Barista / Server role, without inventing a technical job title. Generic service duties are condensed. Coursework, Haskell, long concept lists, and repetitive technology lines were removed to prioritize evidence and achieve one page. The existing static architecture, contact details, links, teal palette, and browser print action are preserved. The layout is now single-column, uses locally bundled DM Sans and Manrope fonts, and includes a PDF download.
+Three technical projects show service integration, application logic, and client/server engineering. ASG remains under the internship already recorded in the original resume. The cafe website sits under the Manager + Web Developer role. Generic service duties are condensed. Coursework, Haskell, long concept lists, and repetitive technology lines were removed to prioritize evidence and achieve one page. The existing static architecture, contact details, links, teal palette, and browser print action are preserved. The layout is now single-column, uses locally bundled DM Sans and Manrope fonts, and includes a PDF download.
 
 ## Evidence and claim boundaries
 
